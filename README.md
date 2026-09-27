@@ -1,16 +1,31 @@
-# Stellar_Sim
-Motore di simulazione multi-agente per lo studio dinamico della geopolitica galattica e del Paradosso di Fermi.
+# Stellar_Sim (v5.4)
 
-## Cos'è Stellar_Sim?
-Stellar_Sim è il laboratorio computazionale alla base del saggio *«Fermi non basta: Il paradosso, le sue 75 risposte e un esperimento per cercare la 76ª»*. Il simulatore permette di esplorare l'evoluzione di civiltà interstellari, applicando vincoli fisici (relatività, termodinamica) e logistici (tempo di governance, secessioni coloniali) per studiare la formazione di arcipelaghi di civiltà isolate.
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python: 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](https://www.python.org/)
 
-## Contenuti del Repository
-- `core/`: Motore di simulazione (Agent-based modeling).
-- `analysis/`: Pipeline di analisi statistica (DOE, ANOVA).
-- `Stellar_Sim_Lab.ipynb`: Notebook Jupyter documentato per replicare i risultati presentati nel libro.
+**Stellar_Sim** is an agent-based, discrete-event simulation engine designed to model the relativistic kinematics, thermodynamic boundaries, and socio-political fragmentation of interstellar civilizations (addressing the Fermi Paradox and the Great Silence).
 
-## Riproducibilità
-Ogni esperimento numerico citato nel libro è riproducibile. I seed deterministici utilizzati per le run di riferimento (es. #844, #371) sono inclusi nelle celle del Notebook.
+This software represents the computational foundation of the book:
+> **Arcipelago Cosmico: Perché le civiltà aliene potrebbero esistere, ma restare isolate e invisibili**  
+> *di Giampaolo Maschietti (2026)*
 
-## Licenza
-Questo progetto è rilasciato sotto licenza **GNU General Public License v3.0 (GPLv3)**.
+---
+
+## 🌌 Core Features & Theoretical Pillars
+
+- **3D Galactic Graph Topology:** Realistic spatial generation matching the Salpeter/Chabrier Initial Mass Function (IMF) and recent *Kepler/Gaia* exoplanetary demographics.
+- **Surface Habitability & Energy Surplus:** Full 4-parameter Earth Similarity Index ($\text{ESI} \ge 0.70$) decoupled from the operational Surface Colonizability Index ($C_{\mathrm{col}}$).
+- **Relativistic Governance & The Deborah Number:** Institutional decay and colonial secession driven by the Lorentz causal lag ($\text{De}_{\mathrm{gov}} > 1$).
+- **Solution 76 (Colonial Hysteresis & Technological Leapfrogging):** Frontier worlds outperforming mother worlds, leading to endogenous autocannibalization of continuous colonization waves.
+- **Game Theory & Thermodynamic Muzzle Flash:** Trade network cooperation vs. Dark Forest predation constrained by relativistic energy dissipation.
+
+---
+
+## 🚀 Quickstart & Installation
+
+Python 3.10 or higher is required.
+
+```bash
+git clone https://github.com/stellar-sim/stellar-sim.git
+cd stellar-sim
+pip install -r requirements.txt
