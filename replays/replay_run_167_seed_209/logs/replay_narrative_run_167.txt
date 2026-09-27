@@ -1,0 +1,238 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 209)...
+[PATHFINDING] Rete galattica universale creata: 13102 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +  20.13 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+    [T +  20.15 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Astra-Vespereon (ESI: 0.96, C_col: 0.22, Pop Iniziale: 0.04M)!
+  [T +  53.83 yr] [CRESCITA_STADIO_2] L'avamposto su Astra-Vespereon completa le biocupole urbane (Pop: 0.39M).
+    [T +  53.85 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-678!
+    [T +  82.85 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-551!
+  [T + 112.41 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Astra-Vespereon raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 3.50M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Astra-Vespereon' intraprende la navigazione interstellare (V: 0.266 c, Raggio: 4.3 ly).
+    [T + 113.87 yr] [ARCHEOLOGIA] ISS Enterprise scava le rovine di 'Forme di Vita di Corallisis' su Corallisis.
+    [T + 122.41 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Cydara!
+    [T + 131.75 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia High-Zephyra Secundus (ESI: 0.93, C_col: 0.73, Pop Iniziale: 0.04M)!
+    [T + 141.37 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Eld-934 III (ESI: 0.94, C_col: 0.52, Pop Iniziale: 0.03M)!
+    [T + 148.98 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Valoriaos (ESI: 0.95, C_col: 0.30, Pop Iniziale: 0.04M)!
+  [T + 166.18 yr] [CRESCITA_STADIO_2] L'avamposto su High-Zephyra Secundus completa le biocupole urbane (Pop: 0.22M).
+    [T + 166.65 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Zenara!
+  [T + 175.63 yr] [CRESCITA_STADIO_2] L'avamposto su Eld-934 III completa le biocupole urbane (Pop: 0.27M).
+  [T + 179.08 yr] [CRESCITA_STADIO_2] L'avamposto su Valoriaos completa le biocupole urbane (Pop: 0.24M).
+    [T + 191.79 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cor-499!
+    [T + 219.99 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Valion!
+  [T + 231.21 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Astra-Vespereon dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 96.0, LC: 1.15)!
+  [T + 231.21 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su High-Zephyra Secundus raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.73M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di High-Zephyra Secundus' intraprende la navigazione interstellare (V: 0.267 c, Raggio: 4.4 ly).
+  [T + 235.47 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Eld-934 III raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.36M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Eld-934 III' intraprende la navigazione interstellare (V: 0.276 c, Raggio: 4.9 ly).
+  [T + 235.47 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Valoriaos raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.23M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Valoriaos' intraprende la navigazione interstellare (V: 0.266 c, Raggio: 4.3 ly).
+    [T + 260.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-863!
+    [T + 280.27 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Zephara!
+    [T + 281.88 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cor-173!
+    [T + 291.20 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-567!
+    [T + 303.35 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Solis Zepheon!
+    [T + 304.24 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-524!
+    [T + 306.81 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Verus!
+    [T + 313.73 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-286!
+    [T + 327.48 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Mor-902!
+  [T + 345.59 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: High-Zephyra Secundus dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 103.1, LC: 1.12)!
+    [T + 345.61 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Zephurn!
+  [T + 350.48 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Eld-934 III dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 100.3, LC: 1.25)!
+  [T + 350.48 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Valoriaos dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 94.0, LC: 1.14)!
+  [T + 350.48 yr] [GUERRA DI CONFINE] Rottura diplomatica tra Federazione Terrestre e Governo Sovrano Ribelle di High-Zephyra Secundus!
+  [T + 350.48 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Eld-934 III sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Eld-934 III'!
+    [T + 354.81 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Naboo (ESI: 0.95, C_col: 0.87, Pop Iniziale: 0.03M)!
+    [T + 362.10 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Thar-414 II (ESI: 0.95, C_col: 0.56, Pop Iniziale: 0.05M)!
+    [T + 375.81 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Mor-893!
+  [T + 384.43 yr] [CRESCITA_STADIO_2] L'avamposto su Naboo completa le biocupole urbane (Pop: 0.15M).
+  [T + 392.45 yr] [CRESCITA_STADIO_2] L'avamposto su Thar-414 II completa le biocupole urbane (Pop: 0.43M).
+  [T + 418.39 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di Valoriaos (2.2 ly).
+    [T + 418.41 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Oakhavenathantis (ESI: 0.95, C_col: 0.13, Pop Iniziale: 0.02M)!
+    [T + 431.60 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-101!
+  [T + 440.93 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Naboo raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.86M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Naboo' intraprende la navigazione interstellare (V: 0.258 c, Raggio: 5.0 ly).
+  [T + 447.87 yr] [CRESCITA_STADIO_2] L'avamposto su Oakhavenathantis completa le biocupole urbane (Pop: 0.16M).
+  [T + 448.45 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Thar-414 II raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 3.38M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Thar-414 II' intraprende la navigazione interstellare (V: 0.255 c, Raggio: 4.5 ly).
+  [T + 453.06 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di High-Zephyra Secundus (2.8 ly).
+  [T + 453.06 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di High-Zephyra Secundus (10.8 ly).
+  [T + 472.10 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Valoriaos (14.3 ly).
+    [T + 490.63 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-965!
+    [T + 500.30 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Solth!
+  [T + 503.95 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Oakhavenathantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.19M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Oakhavenathantis' intraprende la navigazione interstellare (V: 0.255 c, Raggio: 4.1 ly).
+  [T + 503.95 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Eld-934 III (13.2 ly).
+    [T + 503.97 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Vesper Drakara IV (ESI: 0.93, C_col: 0.70, Pop Iniziale: 0.04M)!
+  [T + 534.61 yr] [CRESCITA_STADIO_2] L'avamposto su Vesper Drakara IV completa le biocupole urbane (Pop: 0.24M).
+  [T + 536.08 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Astra-Vespereon sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Astra-Vespereon'!
+  [T + 563.44 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Thar-414 II dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 94.6, LC: 0.95)!
+    [T + 567.19 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia PerseusalMinor (ESI: 0.98, C_col: 0.75, Pop Iniziale: 0.02M)!
+    [T + 573.37 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-533!
+  [T + 576.26 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di High-Zephyra Secundus <-> Governo Sovrano Ribelle di Valoriaos (3.8 ly).
+  [T + 576.26 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Valoriaos sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Valoriaos'!
+    [T + 577.18 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Corara!
+  [T + 583.05 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Thar-414 II (10.3 ly).
+  [T + 593.32 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Vesper Drakara IV raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.78M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Vesper Drakara IV' intraprende la navigazione interstellare (V: 0.255 c, Raggio: 4.3 ly).
+    [T + 593.71 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper-323!
+  [T + 595.20 yr] [CRESCITA_STADIO_2] L'avamposto su PerseusalMinor completa le biocupole urbane (Pop: 0.16M).
+    [T + 626.32 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Vergard!
+    [T + 629.26 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-431!
+    [T + 643.54 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Vesperaxis!
+  [T + 649.07 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su PerseusalMinor raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.15M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di PerseusalMinor' intraprende la navigazione interstellare (V: 0.276 c, Raggio: 5.2 ly).
+    [T + 659.04 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-854!
+    [T + 659.95 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Eld-800!
+    [T + 675.45 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Corgard!
+    [T + 679.09 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Zenelis!
+    [T + 690.17 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia New Exodusvallis (ESI: 0.93, C_col: 0.16, Pop Iniziale: 0.03M)!
+    [T + 699.47 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Eld-557!
+    [T + 703.48 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Solis Sylgard!
+  [T + 709.60 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Vesper Drakara IV dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 99.3, LC: 1.08)!
+  [T + 720.56 yr] [CRESCITA_STADIO_2] L'avamposto su New Exodusvallis completa le biocupole urbane (Pop: 0.32M).
+  [T + 736.80 yr] 🌌 [AVANZAMENTO LC >= 1.40] Governo Sovrano Ribelle di Eld-934 III raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Eld-934 III'!
+    [T + 747.40 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Drakidor!
+  [T + 761.43 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Valoriaos <-> Governo Sovrano Ribelle di Vesper Drakara IV (13.1 ly).
+  [T + 777.75 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su New Exodusvallis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.32M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di New Exodusvallis' intraprende la navigazione interstellare (V: 0.266 c, Raggio: 5.2 ly).
+    [T + 779.40 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Borealis Major (ESI: 0.93, C_col: 0.78, Pop Iniziale: 0.02M)!
+    [T + 780.49 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Coron!
+  [T + 786.14 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di Vesper Drakara IV (11.2 ly).
+    [T + 787.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-838!
+  [T + 798.27 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di High-Zephyra Secundus <-> Governo Sovrano Ribelle di Vesper Drakara IV (9.6 ly).
+    [T + 800.53 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-230!
+  [T + 809.88 yr] [CRESCITA_STADIO_2] L'avamposto su Borealis Major completa le biocupole urbane (Pop: 0.13M).
+    [T + 812.62 yr] [ARCHEOLOGIA] Flotta di Oakhavenathantis scava le rovine di 'Teocrazia di Solaria Secundus' su Solaria Secundus.
+    [T + 815.76 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-470!
+  [T + 821.47 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Thar-414 II <-> Governo Sovrano Ribelle di Vesper Drakara IV (16.3 ly).
+    [T + 825.04 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Ryloth (ESI: 0.96, C_col: 0.91, Pop Iniziale: 0.04M)!
+  [T + 827.49 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Vesper Drakara IV (7.6 ly).
+  [T + 827.49 yr] 🌌 [AVANZAMENTO LC >= 1.40] Governo Sovrano Ribelle di Astra-Vespereon raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Astra-Vespereon'!
+    [T + 844.95 yr] [🛡️ DIRETTIVA PRIMARIA] Flotta Esplorativa III di Astra-Vespereon rileva 'Federazione Terrestre' (LC: 0.92). Scatta il divieto di interferenza: monitoraggio stealth.
+    [T + 848.27 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Syl-666!
+  [T + 854.38 yr] [CRESCITA_STADIO_2] L'avamposto su Ryloth completa le biocupole urbane (Pop: 0.40M).
+  [T + 868.02 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Borealis Major raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.00M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Borealis Major' intraprende la navigazione interstellare (V: 0.273 c, Raggio: 4.7 ly).
+    [T + 877.21 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Zenus!
+    [T + 889.26 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Drakonantis (ESI: 0.96, C_col: 0.90, Pop Iniziale: 0.02M)!
+    [T + 889.35 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-265!
+  [T + 893.99 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: New Exodusvallis dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 98.2, LC: 1.16)!
+    [T + 894.01 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-676!
+  [T + 900.63 yr] 🌌 [AVANZAMENTO LC >= 1.40] Governo Sovrano Ribelle di Valoriaos raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Valoriaos'!
+  [T + 906.91 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Vesper Drakara IV sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Vesper Drakara IV'!
+    [T + 908.36 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Vesperaleon (ESI: 0.96, C_col: 0.19, Pop Iniziale: 0.04M)!
+  [T + 909.90 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Ryloth raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 3.49M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Ryloth' intraprende la navigazione interstellare (V: 0.272 c, Raggio: 4.8 ly).
+    [T + 910.53 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper-697!
+  [T + 913.83 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di New Exodusvallis <-> Governo Sovrano Ribelle di Vesper Drakara IV (16.6 ly).
+  [T + 919.00 yr] [CRESCITA_STADIO_2] L'avamposto su Drakonantis completa le biocupole urbane (Pop: 0.14M).
+  [T + 930.03 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di New Exodusvallis (13.0 ly).
+  [T + 937.35 yr] [CRESCITA_STADIO_2] L'avamposto su Vesperaleon completa le biocupole urbane (Pop: 0.23M).
+    [T + 957.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-201!
+    [T + 963.89 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Orionor!
+  [T + 968.16 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di New Exodusvallis <-> Governo Sovrano Ribelle di Thar-414 II (12.0 ly).
+  [T + 973.39 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Drakonantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.35M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Drakonantis' intraprende la navigazione interstellare (V: 0.26 c, Raggio: 4.9 ly).
+  [T + 989.47 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di New Exodusvallis sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di New Exodusvallis'!
+    [T + 991.71 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-283!
+  [T + 993.44 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Vesperaleon raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.66M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Vesperaleon' intraprende la navigazione interstellare (V: 0.266 c, Raggio: 4.6 ly).
+    [T + 997.85 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Vesperara!
+[T + 1000.93 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (64):
+Flotte Esplorative Totali Attivate nel Tempo: 24
+Starbase Orbitali Presidiate (46):
+    - Starbase Nyx-283 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper-697 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Sylgard [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Apex Zephurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Cydara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-678 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Verus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper-323 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-838 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-854 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-676 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Vesperara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Zenus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-230 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-965 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Zephara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-201 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cor-499 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Eld-557 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-431 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Mor-893 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-470 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-101 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Vesperaxis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Corgard [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Val-533 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Zenelis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-265 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-286 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-863 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cor-173 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Solth [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Mor-902 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Corara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-551 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Zepheon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Vergard [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-524 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Drakidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Orionor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Syl-666 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Valion [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Zenara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-567 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Eld-800 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Coron [Federazione Terrestre] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (8):
+    - 👑 Federazione Terrestre su Terra [LC: 1.05 | C_col: 0.78 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Vesper Drakara IV su Vesper Drakara IV [LC: 1.31 | C_col: 0.70 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Valoriaos su Valoriaos [LC: 1.46 | C_col: 0.30 | Attitudine: Ostile]
+    - 👑 Governo Sovrano Ribelle di Astra-Vespereon su Astra-Vespereon [LC: 1.52 | C_col: 0.22 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Eld-934 III su Eld-934 III [LC: 1.52 | C_col: 0.52 | Attitudine: Ostile]
+    - 👑 Governo Sovrano Ribelle di New Exodusvallis su New Exodusvallis [LC: 1.21 | C_col: 0.16 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Thar-414 II su Thar-414 II [LC: 1.14 | C_col: 0.56 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di High-Zephyra Secundus su High-Zephyra Secundus [LC: 0.48 | C_col: 0.73 | Attitudine: Ostile]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (15):
+    💰 Rotta [Eld-934 <---> Alpha Kaelidor] | Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di Valoriaos (+15% Energia)
+    💰 Rotta [Eld-934 <---> Thar-367] | Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di High-Zephyra Secundus (+15% Energia)
+    💰 Rotta [Thar-259 <---> Thar-367] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di High-Zephyra Secundus (+15% Energia)
+    💰 Rotta [Thar-259 <---> Alpha Kaelidor] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Valoriaos (+15% Energia)
+    💰 Rotta [Thar-259 <---> Eld-934] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Eld-934 III (+15% Energia)
+    💰 Rotta [Thar-367 <---> Alpha Kaelidor] | Governo Sovrano Ribelle di High-Zephyra Secundus <-> Governo Sovrano Ribelle di Valoriaos (+15% Energia)
+    💰 Rotta [Thar-259 <---> Thar-414] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Thar-414 II (+15% Energia)
+    💰 Rotta [Alpha Kaelidor <---> Vesper Drakara] | Governo Sovrano Ribelle di Valoriaos <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Eld-934 <---> Vesper Drakara] | Governo Sovrano Ribelle di Eld-934 III <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Thar-367 <---> Vesper Drakara] | Governo Sovrano Ribelle di High-Zephyra Secundus <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Thar-414 <---> Vesper Drakara] | Governo Sovrano Ribelle di Thar-414 II <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Thar-259 <---> Vesper Drakara] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Sigma Zephantis <---> Vesper Drakara] | Governo Sovrano Ribelle di New Exodusvallis <-> Governo Sovrano Ribelle di Vesper Drakara IV (+15% Energia)
+    💰 Rotta [Thar-259 <---> Sigma Zephantis] | Governo Sovrano Ribelle di Astra-Vespereon <-> Governo Sovrano Ribelle di New Exodusvallis (+15% Energia)
+    💰 Rotta [Sigma Zephantis <---> Thar-414] | Governo Sovrano Ribelle di New Exodusvallis <-> Governo Sovrano Ribelle di Thar-414 II (+15% Energia)
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1000.93 anni stellari.
+================================================================================

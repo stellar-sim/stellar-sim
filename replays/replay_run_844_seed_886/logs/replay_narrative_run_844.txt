@@ -1,0 +1,228 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 886)...
+[PATHFINDING] Rete galattica universale creata: 14563 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +  14.30 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+    [T +  14.32 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Genesisix (ESI: 0.99, C_col: 0.67, Pop Iniziale: 0.02M)!
+  [T +  45.18 yr] [CRESCITA_STADIO_2] L'avamposto su Genesisix completa le biocupole urbane (Pop: 0.13M).
+    [T +  48.27 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Astralisania (ESI: 0.94, C_col: 0.60, Pop Iniziale: 0.04M)!
+    [T +  51.02 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Alpha Nyxos!
+    [T +  64.76 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-125!
+  [T +  78.68 yr] [CRESCITA_STADIO_2] L'avamposto su Astralisania completa le biocupole urbane (Pop: 0.28M).
+    [T +  85.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Syleon!
+  [T +  97.34 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Genesisix raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.10M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Genesisix' intraprende la navigazione interstellare (V: 0.272 c, Raggio: 5.0 ly).
+    [T + 125.71 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Orionaxis!
+  [T + 136.43 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Astralisania raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.13M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Astralisania' intraprende la navigazione interstellare (V: 0.275 c, Raggio: 5.2 ly).
+    [T + 143.41 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Zephara!
+    [T + 155.15 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-850!
+    [T + 157.33 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Moridor!
+    [T + 171.98 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-623!
+    [T + 184.38 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-708!
+    [T + 219.06 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Delta Vesperus!
+    [T + 222.89 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Omega Orionidor!
+    [T + 231.02 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-352!
+    [T + 234.72 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Delta Lumos!
+    [T + 237.30 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Coruscant (ESI: 0.94, C_col: 0.80, Pop Iniziale: 0.01M)!
+  [T + 251.56 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Astralisania dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 96.9, LC: 1.22)!
+  [T + 251.56 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Astralisania sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Astralisania'!
+    [T + 253.99 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Astralison (ESI: 0.99, C_col: 0.06, Pop Iniziale: 0.02M)!
+    [T + 255.09 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-265!
+  [T + 269.19 yr] [CRESCITA_STADIO_2] L'avamposto su Coruscant completa le biocupole urbane (Pop: 0.09M).
+    [T + 269.21 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-525!
+    [T + 278.42 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Beta Kryth!
+  [T + 284.70 yr] [CRESCITA_STADIO_2] L'avamposto su Astralison completa le biocupole urbane (Pop: 0.12M).
+    [T + 294.18 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Lum-371!
+    [T + 312.22 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Lumaxis!
+    [T + 315.52 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cyd-581!
+  [T + 325.40 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Coruscant raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.81M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Coruscant' intraprende la navigazione interstellare (V: 0.271 c, Raggio: 4.9 ly).
+    [T + 334.10 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-523!
+  [T + 342.34 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Astralison raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.28M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Astralison' intraprende la navigazione interstellare (V: 0.264 c, Raggio: 4.5 ly).
+    [T + 357.22 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Lum-294!
+    [T + 357.86 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-268!
+    [T + 370.21 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Corellia (ESI: 0.95, C_col: 0.63, Pop Iniziale: 0.02M)!
+  [T + 374.98 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione Terrestre sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Terra'!
+    [T + 379.28 yr] [🛡️ DIRETTIVA PRIMARIA] Flotta di Astralison rileva 'Unione di Arcadiaisantis' (LC: 0.65). Scatta il divieto di interferenza: monitoraggio stealth.
+    [T + 383.35 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-519!
+  [T + 401.42 yr] [CRESCITA_STADIO_2] L'avamposto su Corellia completa le biocupole urbane (Pop: 0.16M).
+    [T + 402.12 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Fort-Oakhaven Secundus (ESI: 0.96, C_col: 0.78, Pop Iniziale: 0.02M)!
+    [T + 426.73 yr] [PRIMO CONTATTO] ISS Enterprise rileva civiltà intelligente da 'Dominio Stellare di GenesisathSecundus' (LC: 1.45, ESI: 0.97, C_col: 0.36).
+  [T + 431.39 yr] [CRESCITA_STADIO_2] L'avamposto su Fort-Oakhaven Secundus completa le biocupole urbane (Pop: 0.12M).
+  [T + 453.80 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Astralison dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 85.9, LC: 1.14)!
+  [T + 459.77 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Corellia raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.81M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Corellia' intraprende la navigazione interstellare (V: 0.255 c, Raggio: 4.7 ly).
+  [T + 459.77 yr] [GUERRA DI CONFINE] Rottura diplomatica tra Federazione Terrestre e Governo Sovrano Ribelle di Astralison!
+  [T + 487.41 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Fort-Oakhaven Secundus raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.98M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Fort-Oakhaven Secundus' intraprende la navigazione interstellare (V: 0.256 c, Raggio: 4.5 ly).
+  [T + 502.04 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astralison <-> Governo Sovrano Ribelle di Astralisania (6.6 ly).
+    [T + 515.76 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Eldurn!
+    [T + 531.76 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Alpha Arakor!
+    [T + 532.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-100!
+    [T + 545.23 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-659!
+    [T + 554.19 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-480!
+    [T + 570.27 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Nyxantis!
+  [T + 573.94 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Corellia dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 95.9, LC: 1.04)!
+    [T + 574.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-450!
+  [T + 583.70 yr] [GUERRA DI CONFINE] Rottura diplomatica tra Federazione Terrestre e Governo Sovrano Ribelle di Corellia!
+    [T + 591.73 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-897!
+    [T + 592.39 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Tharidor!
+    [T + 609.27 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia OsirisalMinor (ESI: 0.93, C_col: 0.87, Pop Iniziale: 0.01M)!
+    [T + 615.63 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-806!
+    [T + 629.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Drakia!
+  [T + 633.19 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Corellia <-> Governo Sovrano Ribelle di Astralison (6.3 ly).
+  [T + 639.71 yr] [CRESCITA_STADIO_2] L'avamposto su OsirisalMinor completa le biocupole urbane (Pop: 0.08M).
+  [T + 645.93 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Corellia <-> Governo Sovrano Ribelle di Astralisania (12.8 ly).
+    [T + 650.82 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-433!
+    [T + 678.13 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Kryex!
+    [T + 691.21 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Aethelium (ESI: 0.99, C_col: 0.23, Pop Iniziale: 0.02M)!
+  [T + 697.48 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su OsirisalMinor raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.77M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di OsirisalMinor' intraprende la navigazione interstellare (V: 0.26 c, Raggio: 4.2 ly).
+    [T + 702.60 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Oakhavenantis (ESI: 0.96, C_col: 0.09, Pop Iniziale: 0.05M)!
+    [T + 705.65 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper Moreon!
+    [T + 711.03 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Delta Moros III (ESI: 0.97, C_col: 0.70, Pop Iniziale: 0.01M)!
+  [T + 719.10 yr] [CRESCITA_STADIO_2] L'avamposto su Aethelium completa le biocupole urbane (Pop: 0.23M).
+  [T + 735.04 yr] [CRESCITA_STADIO_2] L'avamposto su Oakhavenantis completa le biocupole urbane (Pop: 0.48M).
+    [T + 735.06 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Orionurn!
+  [T + 740.95 yr] [CRESCITA_STADIO_2] L'avamposto su Delta Moros III completa le biocupole urbane (Pop: 0.11M).
+    [T + 760.01 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Lumantis!
+  [T + 771.83 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Aethelium raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.72M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Aethelium' intraprende la navigazione interstellare (V: 0.261 c, Raggio: 5.1 ly).
+    [T + 775.96 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cyd-573!
+  [T + 790.19 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Oakhavenantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 3.11M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Oakhavenantis' intraprende la navigazione interstellare (V: 0.272 c, Raggio: 5.3 ly).
+  [T + 795.12 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Delta Moros III raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.20M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Delta Moros III' intraprende la navigazione interstellare (V: 0.265 c, Raggio: 5.0 ly).
+    [T + 813.19 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Kryion!
+    [T + 823.98 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-933!
+    [T + 868.21 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Alpha Kryor!
+    [T + 879.41 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Astra-Vanguardantis (ESI: 0.94, C_col: 0.49, Pop Iniziale: 0.02M)!
+  [T + 884.40 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Aethelium dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 84.3, LC: 1.13)!
+    [T + 887.66 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper Tharus!
+    [T + 889.21 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Lumara!
+    [T + 901.98 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper-199!
+  [T + 903.52 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Oakhavenantis dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 92.2, LC: 1.09)!
+  [T + 907.08 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Delta Moros III dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 88.8, LC: 1.03)!
+  [T + 909.18 yr] [CRESCITA_STADIO_2] L'avamposto su Astra-Vanguardantis completa le biocupole urbane (Pop: 0.17M).
+    [T + 912.47 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Zenara!
+    [T + 918.71 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Caelum Prime (ESI: 0.96, C_col: 0.22, Pop Iniziale: 0.05M)!
+  [T + 923.44 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Delta Moros III <-> Governo Sovrano Ribelle di Oakhavenantis (2.3 ly).
+    [T + 926.82 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-533!
+    [T + 930.76 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Grand-Kaelenix (ESI: 0.97, C_col: 0.68, Pop Iniziale: 0.03M)!
+    [T + 935.25 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-128!
+    [T + 943.75 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Aethex!
+  [T + 946.53 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Delta Moros III <-> Governo Sovrano Ribelle di Aethelium (3.2 ly).
+  [T + 949.30 yr] [CRESCITA_STADIO_2] L'avamposto su Caelum Prime completa le biocupole urbane (Pop: 0.40M).
+    [T + 949.32 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-450!
+    [T + 955.40 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-177!
+    [T + 955.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-444!
+    [T + 957.05 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Cygnusix (ESI: 0.99, C_col: 0.55, Pop Iniziale: 0.04M)!
+  [T + 960.57 yr] [CRESCITA_STADIO_2] L'avamposto su Grand-Kaelenix completa le biocupole urbane (Pop: 0.25M).
+    [T + 962.88 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Zephara!
+  [T + 966.31 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Astra-Vanguardantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.49M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Astra-Vanguardantis' intraprende la navigazione interstellare (V: 0.265 c, Raggio: 5.0 ly).
+    [T + 979.26 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-328!
+  [T + 985.54 yr] [CRESCITA_STADIO_2] L'avamposto su Cygnusix completa le biocupole urbane (Pop: 0.30M).
+    [T + 986.84 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-395!
+    [T + 990.79 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Nyxelis!
+    [T + 992.83 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-997!
+[T + 1000.55 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (78):
+Flotte Esplorative Totali Attivate nel Tempo: 15
+Starbase Orbitali Presidiate (58):
+    - Starbase Vesper-199 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-523 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper Moreon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Alpha Arakor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-177 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-444 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-125 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Drakia [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Moridor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Apex Orionaxis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Nyxelis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-573 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Omega Orionidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-659 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Zephara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Lumaxis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-533 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-128 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-395 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Kryion [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Syleon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-997 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Aethex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-328 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Delta Lumos [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-519 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Delta Vesperus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-708 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-806 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Lumara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Kryex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Apex Nyxantis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Orionurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion Lumantis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Val-100 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-433 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-623 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Zenara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-352 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-268 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-850 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Beta Kryth [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nyx-933 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Lum-371 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Eldurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-450 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-450 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Lum-294 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-480 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Val-265 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper Tharus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nyx-525 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Tharidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Alpha Kryor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Alpha Nyxos [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Apex Zephara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-581 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-897 [Federazione Terrestre] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (7):
+    - 👑 Federazione Terrestre su Terra [LC: 1.02 | C_col: 0.91 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Astralisania su Astralisania [LC: 1.38 | C_col: 0.60 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Delta Moros III su Delta Moros III [LC: 1.07 | C_col: 0.70 | Attitudine: Collaborativa]
+    - 👑 Governo Sovrano Ribelle di Corellia su Corellia [LC: 0.45 | C_col: 0.63 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Oakhavenantis su Oakhavenantis [LC: 1.11 | C_col: 0.09 | Attitudine: Ostile]
+    - 👑 Governo Sovrano Ribelle di Aethelium su Aethelium [LC: 1.14 | C_col: 0.23 | Attitudine: Ostile]
+    - 👑 Governo Sovrano Ribelle di Astralison su Astralison [LC: 0.48 | C_col: 0.06 | Attitudine: Diffidente]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (5):
+    💰 Rotta [Nyx-773 <---> Nova Tharantis] | Governo Sovrano Ribelle di Astralison <-> Governo Sovrano Ribelle di Astralisania (+15% Energia)
+    💰 Rotta [Sigma Arakex <---> Nyx-773] | Governo Sovrano Ribelle di Corellia <-> Governo Sovrano Ribelle di Astralison (+15% Energia)
+    💰 Rotta [Sigma Arakex <---> Nova Tharantis] | Governo Sovrano Ribelle di Corellia <-> Governo Sovrano Ribelle di Astralisania (+15% Energia)
+    💰 Rotta [Delta Moros <---> Mor-266] | Governo Sovrano Ribelle di Delta Moros III <-> Governo Sovrano Ribelle di Oakhavenantis (+15% Energia)
+    💰 Rotta [Delta Moros <---> Delta Kaelgard] | Governo Sovrano Ribelle di Delta Moros III <-> Governo Sovrano Ribelle di Aethelium (+15% Energia)
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1000.55 anni stellari.
+================================================================================

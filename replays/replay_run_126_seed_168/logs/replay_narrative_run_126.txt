@@ -1,0 +1,75 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 168)...
+[PATHFINDING] Rete galattica universale creata: 3875 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +  13.75 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+    [T +  13.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Drakex!
+    [T +  39.73 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-632!
+    [T +  62.88 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Kryos!
+    [T + 103.38 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cor-693!
+    [T + 229.42 yr] [ARCHEOLOGIA] Ammiraglia di Terra scava le rovine di 'Clan di Drakonenara' su Drakonenara.
+    [T + 239.60 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-993!
+    [T + 261.34 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-902!
+    [T + 284.57 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Lum-158!
+    [T + 308.19 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-716!
+    [T + 332.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-393!
+    [T + 357.35 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-248!
+    [T + 383.29 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-888!
+  [T + 528.04 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione Terrestre sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Terra'!
+    [T + 641.57 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-180!
+    [T + 651.33 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cor-387!
+    [T + 889.37 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-283!
+    [T + 898.24 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-764!
+    [T + 904.62 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Vesperidor!
+  [T + 917.43 yr] 🌌 [AVANZAMENTO LC >= 1.40] Federazione Terrestre raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Terra'!
+    [T + 949.92 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-716!
+    [T + 961.84 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-105!
+    [T + 971.12 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Lumurn!
+[T + 1002.99 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (23):
+Flotte Esplorative Totali Attivate nel Tempo: 4
+Starbase Orbitali Presidiate (19):
+    - Starbase Orion-716 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-105 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-283 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-902 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-180 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-248 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-393 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Vesperidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Val-632 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cor-693 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-764 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Kryos [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Lumurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Lum-158 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cor-387 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-716 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-888 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Drakex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-993 [Federazione Terrestre] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (1):
+    - 👑 Federazione Terrestre su Terra [LC: 1.45 | C_col: 0.53 | Attitudine: Leale a Sol]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (0):
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1002.99 anni stellari.
+================================================================================
