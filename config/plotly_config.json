@@ -1,0 +1,36 @@
+{
+    "theme": {
+        "paper_bgcolor": "#0a0c14",
+        "scene_bgcolor": "#0f1322",
+        "grid_color": "rgba(100, 120, 160, 0.20)",
+        "zeroline_color": "rgba(140, 160, 200, 0.40)",
+        "font_color": "#e0e6ed",
+        "tickfont_color": "#a0b0c5"
+    },
+    "spheres_of_influence": {
+        "show": true,
+        "opacity": 0.1,
+        "capital_radius_ly": 4.5,
+        "colony_radius_ly": 3.0
+    },
+    "title": {
+        "font_size": 15,
+        "x_position": 0.5
+    },
+    "camera_eye": {
+        "x": 1.4,
+        "y": 1.4,
+        "z": 1.0
+    },
+    "legend": {
+        "show": true,
+        "x": 0.01,
+        "y": 0.99,
+        "bgcolor": "rgba(15, 20, 35, 0.85)",
+        "bordercolor": "rgba(255, 255, 255, 0.15)"
+    },
+    "annotations_3d": {
+        "font_size": 9,
+        "font_color": "#111111"
+    }
+}

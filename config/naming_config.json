@@ -1,0 +1,24 @@
+{
+    "star_naming": {
+        "prefixes": ["Alpha", "Beta", "Gamma", "Nova", "Apex", "Solis", "Astra", "Vesper", "Orion", "Zenith", "Polaris", "Epsilon", "Delta", "Sigma", "Omega"],
+        "generic_suffixes": ["Major", "Prime", "Cluster", "Expanse", "Haven", "Reach", "Sector", "Sanctuary", "Zenith", "Corona"],
+        "syllables1": ["Val", "Zen", "Cor", "Thar", "Nyx", "Orion", "Cyd", "Zeph", "Vesper", "Kry", "Aeth", "Sol", "Eld", "Drak", "Lum", "Ver", "Kael", "Syl", "Mor", "Arak"],
+        "syllables2": ["prime", "ia", "on", "us", "ix", "ara", "os", "th", "urn", "ex", "gard", "idor", "antis", "ara", "ion", "or", "axis", "eon", "elis"]
+    },
+    "planet_naming": {
+        "prefixes": ["Neo-", "New ", "Astra-", "Sanctuary ", "High-", "Grand-", "Upper-", "Port-", "Fort-"],
+        "phonetic_roots": [
+            "Aethel", "Vesper", "Kryon", "Thalor", "Eldar", "Verid", "Oakhaven", "Solaria",
+            "Caelum", "Zephyra", "Nyxia", "Arcadia", "Elysium", "Aurelia", "Terra Nova",
+            "Eden", "Avalon", "Hyperion", "Chronos", "Valoria", "Drakon", "Lumina", "Osiris",
+            "Sylvan", "Kaelen", "Morrigan", "Cygnus", "Borealis", "Aegis", "Perseus", "Astralis",
+            "Corallis", "Nereus", "Vanguard", "Genesis", "Exodus", "Celestia", "Solaris"
+        ],
+        "infixes": ["an", "or", "el", "is", "ar", "en", "on", "ath", "er", "in", "al"],
+        "suffixes": ["gard", "ia", "on", "is", "dor", "vallis", "ium", "antis", "ara", "eon", "os", "ix", " Prime", " Major", " Minor", " Secundus"],
+        "historic_legendary_worlds": [
+            "Coruscant", "Corellia", "Alderaan", "Mon Cala", "Chandrila", "Kashyyyk", "Naboo", "Mandalore", "Tatooine", "Dathomir", "Bespin", "Kamino", "Ryloth"
+        ],
+        "latin_numerals": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV"]
+    }
+}

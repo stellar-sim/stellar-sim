@@ -1,0 +1,80 @@
+{
+  "_comment_architecture": "CONFIGURAZIONE STELLAR_SIM V5.0 CON SUPPORTO DUAL-MODE",
+  
+  "temporal_mode": "TACTICAL_ACCELERATED",
+  "_comment_temporal_options": "Valori ammessi: 'TACTICAL_ACCELERATED' (1.000 yr) oppure 'DEEP_TIME_ASTROPHYSICAL' (10.000 yr)",
+
+  "simulation_volume_side_ly": 70.0,
+  "civilization_max_spawn_radius_ly": 18.0,
+  "average_star_distance_ly": 4.8,
+  
+  "earth_star_name": "Sol",
+  "sol_star_id": "Sol",
+  "earth_planet_name": "Terra",
+  "max_mission_duration_years": 1000.0,
+  "max_exploration_speed_c": 0.35,
+
+  "edge_watchdog": {
+    "enabled": true,
+    "buffer_margin_ly": 4.0,
+    "apply_repulsion_penalty": true
+  },
+
+  "max_initial_interstellar_civilizations": 2,
+  "initial_civilizations_distribution_weights": [55, 30, 15],
+  "m_dwarf_flare_penalty": 0.0,
+  "initial_alien_lc_range": [1.0, 1.35],
+
+  "base_seed": 42,
+
+  "civilization_parameters": {
+    "min_ship_speed_factor": 0.35,
+    "max_ship_speed_factor": 1.0,
+    "min_single_hop_endurance_years": 12.0,
+    "max_single_hop_endurance_years": 25.0,
+    "absolute_max_single_trip_duration_years": 150.0,
+    "secular_dilation_base_years": 180.0,
+    "beta_esi_leapfrogging": 0.50
+  },
+
+  "ship_mechanics": {
+    "fuel_consumption_base": 0.08,
+    "fuel_consumption_per_ly": 0.006,
+    "health_decay_per_ly": 0.0015,
+    "colony_refuel_fuel": 0.75,
+    "colony_repair_health": 0.50
+  },
+
+  "star_type_distribution": {
+    "M": 74.0,
+    "K": 13.0,
+    "G": 7.5,
+    "F": 3.8,
+    "A": 1.3,
+    "B": 0.3,
+    "O": 0.1
+  },
+
+  "planetary_system_generation": {
+    "min_planets_per_system": 2,
+    "max_planets_per_system": 8,
+    "planet_in_hz_habitability_chance": 0.35,
+    "habitable_zone_chance_by_star_type": {
+      "K": 0.45,
+      "G": 0.40,
+      "F": 0.20,
+      "M": 0.18,
+      "A": 0.05,
+      "B": 0.01,
+      "O": 0.00
+    },
+    "planet_type_distribution": {
+      "Roccioso": 35,
+      "Gigante Gassoso": 20,
+      "Gigante Ghiacciato": 15,
+      "Terrestre": 10,
+      "Super-Terra": 12,
+      "Mondo Oceanico": 8
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_comment_architecture": "CONFIGURAZIONE DIPLOMAZIA & MERCANTILISMO V5.3",
+  "heuristic_weights": {
+    "trade_base_acceptance_chance": 0.45,
+    "disposition_trade_modifiers": {
+      "Collaborativa": 0.35,
+      "Pacifica": 0.30,
+      "Esplorativa": 0.25,
+      "Leale a Sol": 0.25,
+      "Leale alla Madrepatria": 0.20,
+      "Neutrale": 0.00,
+      "Cauta": -0.10,
+      "Diffidente": -0.35,
+      "Ostile": -0.75,
+      "Predatoria": -0.90
+    },
+    "border_friction_escalation_base": 0.45,
+    "disposition_war_modifiers": {
+      "Predatoria": 0.60,
+      "Ostile": 0.45,
+      "Diffidente": 0.20,
+      "Cauta": 0.00,
+      "Neutrale": -0.15,
+      "Collaborativa": -0.30,
+      "Pacifica": -0.40
+    },
+    "federation_min_compatibility_score": 0.65
+  },
+  "technology_dynamics": {
+    "base_passive_annual_growth": 0.00003,
+    "starbase_bonus_annual": 0.00008,
+    "trade_route_lc_bonus_annual": 0.00035,
+    "war_damage_lc_penalty": 0.015,
+    "archeology_breakthrough_bonus": 0.020,
+    "isolation_stagnation_factor": 0.50
+  },
+  "colonial_mercantilism": {
+    "enabled": true,
+    "exploitation_rate": 0.10,
+    "resentment_accumulation_rate": 0.85,
+    "independence_war_resentment_threshold": 35.0,
+    "motherland_lc_siphon_percentage": 0.05
+  },
+  "disposition_drift": {
+    "trade_cooperation_softening_chance": 0.08,
+    "military_conflict_hardening_chance": 0.25
+  },
+  "imperial_overstretch": {
+    "enabled": true,
+    "reference_distance_ly": 10.0,
+    "distance_exponent": 1.35,
+    "hostility_scale_factor": 0.025
+  },
+  "poisson_great_filter": {
+    "enabled": true,
+    "base_annual_hazard_rate": 0.00018,
+    "critical_transition_lc_range": [0.75, 1.05],
+    "transition_risk_multiplier": 3.2
+  }
+}

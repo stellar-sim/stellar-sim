@@ -1,0 +1,120 @@
+{
+  "interaction_rules": {
+    "earth_lc_start": 1.0,
+    "prime_directive_absolute_lc_threshold": 0.20,
+    "hostile_retreat_lc_advantage_threshold": 1.2
+  },
+
+  "life_generation": {
+    "base_chance_on_explored_planet": 0.08
+  },
+
+  "civilization_generation": {
+    "chance_if_life_present": 0.14,
+    "tiers": [
+      {
+        "tier_name": "Pre-Storico / Biologia Primitiva",
+        "lc_min": 0.01,
+        "lc_max": 0.19,
+        "weight": 15,
+        "naming_prefixes": ["Fauna di", "Forme di Vita di"],
+        "structures": ["Branco", "Alveare Biologico"],
+        "ethics": ["Naturale", "Adattiva"]
+      },
+      {
+        "tier_name": "Civiltà Storica Pre-Industriale",
+        "lc_min": 0.20,
+        "lc_max": 0.49,
+        "weight": 30,
+        "naming_prefixes": ["Regni di", "Clan di", "Città-Stato di", "Teocrazia di"],
+        "structures": ["Feudale", "Teocrazia", "Tribale", "Oligarchia Fondiaria"],
+        "ethics": ["Tradizionalista", "Spiritualista", "Monarchica"]
+      },
+      {
+        "tier_name": "Industriale / Meccanica",
+        "lc_min": 0.50,
+        "lc_max": 0.79,
+        "weight": 25,
+        "naming_prefixes": ["Impero Industriale di", "Nazioni Unite di", "Unione di"],
+        "structures": ["Democrazia Rappresentativa", "Oligarchia", "Corporatocrazia"],
+        "ethics": ["Competitiva", "Materialista", "Industrialista"]
+      },
+      {
+        "tier_name": "Atomica / Spaziale Planetaria",
+        "lc_min": 0.80,
+        "lc_max": 0.99,
+        "weight": 15,
+        "naming_prefixes": ["Repubblica Planetaria di", "Federazione Orbitale di"],
+        "structures": ["Tecnocrazia Globale", "Consiglio di Sicurezza"],
+        "ethics": ["Pacifista", "Scientifica", "Espansionista"]
+      },
+      {
+        "tier_name": "Interstellare Pionieristica",
+        "lc_min": 1.00,
+        "lc_max": 1.19,
+        "weight": 8,
+        "naming_prefixes": ["Federazione di", "Egemonia di", "Dominio di"],
+        "structures": ["Consiglio Interstellare", "Federazione"],
+        "ethics": ["Esplorativa", "Collaborativa"]
+      },
+      {
+        "tier_name": "Espansione Federale & Commercio",
+        "lc_min": 1.20,
+        "lc_max": 1.39,
+        "weight": 5,
+        "naming_prefixes": ["Grande Egemonia di", "Lega Commerciale di"],
+        "structures": ["Sindacato Interstellare", "Alto Comando Federale"],
+        "ethics": ["Multilaterale", "Commerciale"]
+      },
+      {
+        "tier_name": "Ingegneria Planetaria / Megastrutture",
+        "lc_min": 1.40,
+        "lc_max": 1.59,
+        "weight": 2,
+        "naming_prefixes": ["Collettivo Sovrano di", "Dominio Stellare di"],
+        "structures": ["Mente Alveare Superiore", "Consorzio Megastrutturale"],
+        "ethics": ["Sintetica", "Cosmica"]
+      }
+    ]
+  },
+
+  "disposition_generation": {
+    "distribution": {
+      "Collaborativa": 25,
+      "Cauta": 25,
+      "Diffidente": 25,
+      "Ostile": 15,
+      "Predatoria": 10
+    }
+  },
+
+  "biology": {
+    "base_forms": ["Carbonio-Acqua", "Silicio-Idrocarburi", "Ammoniaca-Metano"],
+    "base_form_weights": [80, 15, 5]
+  },
+
+  "great_filter": {
+    "extinction_chance_on_civ": 0.35,
+    "cataclysm_types": [
+      "Collasso Ecologico e Climatico",
+      "Guerra Termonucleare Globale",
+      "Inverno da Impatto Asteroideo",
+      "Crisi dell'Intelligenza Artificiale Ostile",
+      "Pandemia Sintetica Incontrollata"
+    ],
+    "archeological_relic_fuel_bonus": 0.40,
+    "archeological_relic_health_bonus": 0.25
+  },
+
+  "colony_independence_disposition": {
+    "Ostile": 25,
+    "Diffidente": 30,
+    "Neutrale": 25,
+    "Collaborativa": 20
+  },
+
+  "gnn_settings": {
+    "enabled": false,
+    "broadcast_interval_years": 50.0
+  }
+}
