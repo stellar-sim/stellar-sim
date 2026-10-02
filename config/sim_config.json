@@ -22,7 +22,7 @@
 
   "max_initial_interstellar_civilizations": 2,
   "initial_civilizations_distribution_weights": [55, 30, 15],
-  "m_dwarf_flare_penalty": 0.0,
+  "m_dwarf_flare_penalty": 0.90,
   "initial_alien_lc_range": [1.0, 1.35],
 
   "base_seed": 42,
