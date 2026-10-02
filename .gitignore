@@ -5,3 +5,8 @@ __pycache__/
 *.log
 !**/replay_narrative_*.txt
 batch_runs/
+
+# Ignora cartelle di benchmark e test locali
+outputs/benchmark_doe_deeptime/
+outputs/sensitivity_studies_v53/
+outputs/struttura_progetto.txt
