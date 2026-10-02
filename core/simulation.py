@@ -1,6 +1,6 @@
 ################################################################################
 # FILE: core/simulation.py
-# VERSIONE V5.4 - OTTIMIZZATA PER DEEP TIME CON MEMOIZATION BFS E SPATIAL HASHING
+# VERSIONE V5.4.1 - TRUE DETERMINISTIC ONE-SEED REPLAY (COMPLETO AL 100%)
 ################################################################################
 
 import random
@@ -16,6 +16,7 @@ from core.agents import AgentShip
 from core.diplomacy import DiplomaticManager, DiplomaticRelation, HeuristicAIDiplomacyAgent
 from utils.news_feed import GalacticNewsNetwork
 from utils.logger import ASCIIExplorationLogger
+from core.civilization import StarSystem, Planet, determine_civilization_mobility
 
 ACTION_DURATIONS = {
     "travel_interstellar": lambda dist, speed: (dist / speed) * 365.25 * 24, 
@@ -38,16 +39,13 @@ class ExplorationSimulation:
         ai_diplomacy_cfg=None
     ):
         self.logger = logger if isinstance(logger, ASCIIExplorationLogger) else ASCIIExplorationLogger(verbosity=1)
-        self.ai_diplomacy_cfg = ai_diplomacy_cfg if isinstance(ai_diplomacy_cfg, dict) else {}
+        self.ai_diplomacy_cfg = copy.deepcopy(ai_diplomacy_cfg) if isinstance(ai_diplomacy_cfg, dict) else {}
 
-        if not self.ai_diplomacy_cfg:
-            ai_path = os.path.join("config", "ai_diplomacy_config.json")
-            if os.path.exists(ai_path):
-                try:
-                    with open(ai_path, 'r', encoding='utf-8') as f:
-                        self.ai_diplomacy_cfg = json.load(f)
-                except Exception:
-                    self.ai_diplomacy_cfg = {}
+        # TRUE DETERMINISTIC SETUP: Se non definiti dal DOE, campiona d_rif e lambda dai range del libro
+        if "imperial_overstretch" not in self.ai_diplomacy_cfg:
+            self.ai_diplomacy_cfg["imperial_overstretch"] = {}
+        if "reference_distance_ly" not in self.ai_diplomacy_cfg["imperial_overstretch"]:
+            self.ai_diplomacy_cfg["imperial_overstretch"]["reference_distance_ly"] = round(random.uniform(6.0, 20.0), 1)
 
         self.sim_params = sim_params or {}
         self.interaction_cfg = interaction_cfg or {}
@@ -140,23 +138,19 @@ class ExplorationSimulation:
         self.last_geopolitics_check_year = 0.0
         self.agents = []
 
-        # ======================================================================
-        # OTTIMIZZAZIONI DI PERFORMANCE V5.4 PER DEEP TIME
-        # ======================================================================
-        self._path_cache = {}          # Caching BFS per rotte di rifornimento
-        self._system_hab_cache = {}    # Cache statica dell'abitabilità dei sistemi
+        # Ottimizzazioni di performance per Deep Time
+        self._path_cache = {}          
+        self._system_hab_cache = {}    
         self._precompute_system_habitability()
 
         self._init_sol_system()
         self._init_agents()
 
     def _precompute_system_habitability(self):
-        """Pre-calcola l'abitabilità potenziale dei sistemi stellari per velocizzare il pathfinding."""
         for sid, s_obj in self.stars.items():
             self._system_hab_cache[sid] = s_obj.has_habitable_candidate()
 
     def _cached_find_bfs_path(self, start_id, target_id):
-        """Versione con memoization della ricerca cammino minimo per le linee logistiche."""
         if start_id == target_id:
             return [start_id]
         key = (start_id, target_id)
@@ -200,8 +194,10 @@ class ExplorationSimulation:
                     p.record_lc_snapshot(0.0)
 
     def _init_agents(self):
-        earth_speed = self.sim_params.get('ship_speed_ly_per_year', 0.25)
-        earth_reach = self.sim_params.get('max_reach_ly', 6.0)
+        mobility = determine_civilization_mobility(self.sim_params)
+        earth_speed = mobility["ship_speed_ly_per_year"]
+        earth_reach = mobility["max_reach_ly"]
+
         earth_ship = AgentShip(
             "ISS Enterprise", "Federazione Terrestre", self.sol_id, 
             earth_speed, earth_reach, is_terrestrial=True, disposition="Collaborativa", civilization_level=self.earth_lc
@@ -340,8 +336,7 @@ class ExplorationSimulation:
             s_obj.controlling_faction = home_planet.civilization_name
 
             if home_planet.civilization_level >= 1.0:
-                max_c = self.sim_params.get('max_exploration_speed_c', 0.35)
-                alien_speed = round(min(max_c, 0.15 + (home_planet.civilization_level * 0.14)), 3)
+                alien_speed = round(random.uniform(0.15, 0.60), 3)
                 alien_reach = round(alien_speed * random.uniform(16.0, 24.0), 2)
                 ship_name = f"Ammiraglia di {home_planet.assigned_name}"
                 
@@ -364,18 +359,16 @@ class ExplorationSimulation:
     def _check_and_spawn_multiship_fleets(self):
         current_year = self.logger.simulation_time_hours / (24 * 365.25)
         sovereign_planets = [p for s in self.stars.values() for p in s.planets if p.colony_stage == Planet.STAGE_SOVEREIGN]
-        max_c = self.sim_params.get('max_exploration_speed_c', 0.35)
         
         for p in sovereign_planets:
             lc = p.civilization_level or 1.0
             faction = p.faction_name
-            # Ottimizzazione O(1): uso del puntatore star_system_id
             orig_sid = p.star_system_id or p.homeworld_system_id
 
             if lc >= 1.0 and not getattr(p, 'has_spawned_autonomous_fleet', True):
                 p.has_spawned_autonomous_fleet = True
                 if orig_sid and orig_sid in self.stars:
-                    speed = round(min(max_c, 0.15 + (lc * 0.14)), 3)
+                    speed = round(random.uniform(0.15, 0.60), 3)
                     reach = round(speed * random.uniform(16.0, 24.0), 2)
                     ship_name = f"Ammiraglia di {p.assigned_name}"
                     new_ship = AgentShip(
@@ -392,7 +385,7 @@ class ExplorationSimulation:
             if lc >= 1.20 and key_tier2 not in self.unlocked_secondary_fleets:
                 self.unlocked_secondary_fleets.add(key_tier2)
                 if orig_sid and orig_sid in self.stars:
-                    speed = round(min(max_c, 0.18 + (lc * 0.10)), 3)
+                    speed = round(random.uniform(0.18, 0.60), 3)
                     reach = round(speed * random.uniform(16.0, 22.0), 2)
                     ship_name = f"Flotta Esplorativa II di {p.assigned_name}"
                     is_earth = ("Terrestre" in faction)
@@ -409,7 +402,7 @@ class ExplorationSimulation:
             if lc >= 1.40 and key_tier3 not in self.unlocked_secondary_fleets:
                 self.unlocked_secondary_fleets.add(key_tier3)
                 if orig_sid and orig_sid in self.stars:
-                    speed = round(min(max_c, 0.22 + (lc * 0.08)), 3)
+                    speed = round(random.uniform(0.22, 0.60), 3)
                     reach = round(speed * random.uniform(18.0, 25.0), 2)
                     ship_name = f"Flotta Esplorativa III di {p.assigned_name}"
                     is_earth = ("Terrestre" in faction)
@@ -476,7 +469,6 @@ class ExplorationSimulation:
         planet.is_explored_for_life = True
 
     def _check_colonies_and_supply_lines(self):
-        """Ottimizzato con Memoization BFS: evita di rieseguire la ricerca cammino su tutto il grafo."""
         current_year = self.logger.simulation_time_hours / (24 * 365.25)
         delta_years = max(0.01, current_year - self.last_colony_check_year)
         self.last_colony_check_year = current_year
@@ -490,7 +482,6 @@ class ExplorationSimulation:
             if star_obj.original_id == capital_id:
                 is_supplied = True
             else:
-                # Utilizzo della BFS con cache memorizzata
                 path_to_capital = self._cached_find_bfs_path(star_obj.original_id, capital_id)
                 is_supplied = len(path_to_capital) > 1
 
@@ -513,8 +504,7 @@ class ExplorationSimulation:
                     elif evt_type == "EMANCIPAZIONE_STADIO_4":
                         self.diplomacy.evaluate_initial_relation(planet.mother_faction, "Collaborativa", planet.faction_name, planet.colony_disposition)
                     
-                    max_c = self.sim_params.get('max_exploration_speed_c', 0.35)
-                    speed = round(min(max_c, 0.18 + ((planet.civilization_level or 1.0) * 0.10)), 3)
+                    speed = round(random.uniform(0.18, 0.60), 3)
                     reach = round(speed * random.uniform(16.0, 20.0), 2)
                     
                     ship_name = f"Flotta di {planet.assigned_name}"
@@ -533,7 +523,6 @@ class ExplorationSimulation:
                     self.active_colonies.remove((star_obj, planet))
 
     def _process_inter_colony_geopolitics(self):
-        """Ottimizzato con Spatial Hashing 3D per abbattere l'O(N^2) delle coppie di mondi sovrani."""
         current_year = self.logger.simulation_time_hours / (24 * 365.25)
         delta_t = max(0.1, current_year - self.last_geopolitics_check_year)
         self.last_geopolitics_check_year = current_year
@@ -541,7 +530,6 @@ class ExplorationSimulation:
         sovereign_worlds = [(s, p) for s in self.stars.values() for p in s.planets if p.colony_stage == Planet.STAGE_SOVEREIGN]
 
         if len(sovereign_worlds) >= 2:
-            # Spatial Grid Hashing (Celle cubiche di 18 ly)
             CELL_SIZE = 18.0
             spatial_grid = defaultdict(list)
             for item in sovereign_worlds:
@@ -556,7 +544,6 @@ class ExplorationSimulation:
             ]
 
             for cell_coord, items_in_cell in spatial_grid.items():
-                # Raccoglie i candidati nella cella corrente e nelle 26 celle adiacenti
                 candidate_items = []
                 for offset in neighbor_offsets:
                     adj_coord = (cell_coord[0] + offset[0], cell_coord[1] + offset[1], cell_coord[2] + offset[2])
@@ -566,7 +553,7 @@ class ExplorationSimulation:
                 for i in range(len(items_in_cell)):
                     s1, p1 = items_in_cell[i]
                     for s2, p2 in candidate_items:
-                        if s1.original_id >= s2.original_id:  # Evita duplicati e auto-confronti
+                        if s1.original_id >= s2.original_id:
                             continue
                         if p1.faction_name == p2.faction_name:
                             continue
@@ -695,7 +682,6 @@ class ExplorationSimulation:
                 return name
 
     def _get_next_target_for_agent(self, agent: AgentShip):
-        """Ottimizzato: sfrutta la cache di abitabilità pre-calcolata senza iterare i pianeti."""
         curr_id = agent.current_system_id
         if curr_id not in agent.explored_branches:
             agent.explored_branches[curr_id] = set()
@@ -730,7 +716,7 @@ class ExplorationSimulation:
         return chosen_id
 
     def run(self):
-        self.logger.log_header(f"Inizio Simulazione Galattica Multi-Agente V5.4 [{self.temporal_mode}]")
+        self.logger.log_header(f"Inizio Simulazione Galattica Multi-Agente V5.4.1 [{self.temporal_mode}]")
         self.logger.log_event("INIZIALIZZAZIONE", f"Attivate {len(self.agents)} flotte iniziali (Orizzonte: {self.max_duration_years:.0f} yr).", indent=0, min_verbosity=1)
 
         sol_pos = self.stars[self.sol_id].position
@@ -927,7 +913,7 @@ class ExplorationSimulation:
             self.logger.log_raw(f"  💰 Rotta [{s1} <---> {s2}] | {tr.faction_a} <-> {tr.faction_b} (+15% Energia)", indent=2, min_verbosity=1)
 
     def generate_mission_summary(self):
-        self.logger.log_header("Riepilogo Generale della Galassia Multi-Agente V5.4")
+        self.logger.log_header("Riepilogo Generale della Galassia Multi-Agente V5.4.1")
         self.logger.log_raw(f"Sistemi Stellari Totali Esplorati ({len(self.visited_system_ids)}):", indent=0, min_verbosity=1)
         self.logger.log_raw(f"Flotte Esplorative Totali Attivate nel Tempo: {len(self.agents)}", indent=0, min_verbosity=1)
         

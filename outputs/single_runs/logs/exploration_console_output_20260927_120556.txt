@@ -1,0 +1,36 @@
+[UNIVERSO] Campo stellare generato con successo: 3101 sistemi celesti.
+
+[PARAMETRI TERRESTRI ESTRATTI]
+ • Velocità di crociera: 0.137 c (0.137 ly/anno)
+ • Portata massima singolo salto: 2.63 ly
+
+[PATHFINDING] Rete galattica universale creata: 1058 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +  17.67 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+  [T +  51.07 yr] [RIENTRO] Ammiraglia di Terra (Federazione Terrestre) ha completato le rotte ed è tornata alla base.
+  [T +  70.67 yr] [RIENTRO] ISS Enterprise (Federazione Terrestre) ha completato le rotte ed è tornata alla base.
+[T +  70.67 yr] [FINE] Tutte le flotte di esplorazione hanno completato le rotte.
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (2):
+Flotte Esplorative Totali Attivate nel Tempo: 2
+Starbase Orbitali Presidiate (0):
+
+Governi Coloniali Sovrani Emancipati (1):
+    - 👑 Federazione Terrestre su Terra [LC: 1.00 | C_col: 0.32 | Attitudine: Leale a Sol]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (0):
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 70.67 anni stellari.
+================================================================================

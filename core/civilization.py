@@ -1,28 +1,24 @@
 ################################################################################
 # FILE: core/civilization.py
-# VERSIONE V5.4 - ESI CANONICO NORMALIZZATO, C_COL STOCASTICO E OTTIMIZZAZIONE O(1)
+# VERSIONE V5.4.1 - TRUE DETERMINISTIC ONE-SEED REPLAY (PRNG STREAM ISOLATION)
 ################################################################################
 
 import random
 import math
-import copy
+import hashlib
 
 def determine_civilization_mobility(sim_config):
-    civ_cfg = sim_config.get('civilization_parameters', {})
-    min_factor = civ_cfg.get('min_ship_speed_factor', 0.5)
-    max_factor = civ_cfg.get('max_ship_speed_factor', 1.0)
-    max_c = sim_config.get('max_exploration_speed_c', 0.35)
-    
-    ship_speed_c = round(random.uniform(min_factor * max_c, max_factor * max_c), 3)
+    """
+    Determina la mobilità della civiltà lungo l'intero spettro cosmico del libro:
+    v_max in [0.15 c, 0.60 c] e endurance in [15, 24] anni.
+    """
+    # Range cosmico del Master DOE (Capitoli 7 e 8)
+    ship_speed_c = round(random.uniform(0.15, 0.60), 3)
     ship_speed_ly_per_year = ship_speed_c
 
-    hop_endurance = random.uniform(
-        civ_cfg.get('min_single_hop_endurance_years', 15.0),
-        civ_cfg.get('max_single_hop_endurance_years', 24.0)
-    )
-    
+    hop_endurance = random.uniform(15.0, 24.0)
     max_reach_ly = round(ship_speed_ly_per_year * hop_endurance, 2)
-    abs_max_trip = civ_cfg.get('absolute_max_single_trip_duration_years', 150.0)
+    abs_max_trip = 150.0
 
     return {
         "ship_speed_c": ship_speed_c,
@@ -57,6 +53,15 @@ def calculate_esi(radius_r, density_rho, escape_vel_v, temp_surface_k):
         
     return round(float(min(1.0, max(0.0, esi))), 3)
 
+def _deterministic_c_col(planet_name, system_id):
+    """
+    Genera C_col in [0, 1] in modo deterministico e isolato tramite hash.
+    NON consuma chiamate dal generatore random globale, preservando la sincronizzazione del PRNG.
+    """
+    key = f"{system_id}_{planet_name}".encode('utf-8')
+    h = int(hashlib.md5(key).hexdigest(), 16)
+    return round((h % 1000) / 1000.0, 3)
+
 class Planet:
     STAGE_ABANDONED = -1
     STAGE_UNINHABITED = 0
@@ -78,7 +83,7 @@ class Planet:
         self.original_name_from_gen = planet_data['name'] 
         self.type = planet_data['type']
         self.star_name = star_assigned_name 
-        self.star_system_id = system_id  # Puntatore O(1) al sistema stellare ospite
+        self.star_system_id = system_id
         self.orbital_index = orbital_index
         self.assigned_name = self.original_name_from_gen 
         self.has_custom_proper_name = False
@@ -96,8 +101,8 @@ class Planet:
         # 1. ESI Geofisico Puro
         self.esi = calculate_esi(self.radius_r, self.density_rho, self.escape_vel_v, self.temp_surface_k)
         
-        # 2. Indice di Colonizzabilità Superficiale / Surplus Energetico (C_col in [0, 1] stocastico)
-        self.c_col = round(random.uniform(0.0, 1.0), 3)
+        # 2. Indice di Colonizzabilità Superficiale deterministico (Zero consumo PRNG globale)
+        self.c_col = _deterministic_c_col(self.original_name_from_gen, system_id or "Sys")
 
         self.is_explored_for_life = False
         self.is_explored_for_surface = False
@@ -115,7 +120,7 @@ class Planet:
         self.cataclysm_cause = None
         self.relic_extracted = False
         
-        # Parametri Colonia V5.4
+        # Parametri Colonia V5.4.1
         self.is_colonized = False
         self.colony_stage = self.STAGE_UNINHABITED
         self.colony_founded_year = None
@@ -193,7 +198,7 @@ class Planet:
 
         years_in_stage = current_year - self.last_stage_transition_year
 
-        # 1. Mercantilismo e accumulo risentimento
+        # 1. Mercantilismo e risentimento
         merc_cfg = (ai_diplomacy_cfg or {}).get("colonial_mercantilism", {})
         if merc_cfg.get("enabled", True) and not self.is_independent and self.colony_stage in [self.STAGE_OUTPOST, self.STAGE_DEVELOPING, self.STAGE_SELF_SUFFICIENT]:
             expl_rate = merc_cfg.get("exploitation_rate", 0.10)
@@ -225,7 +230,7 @@ class Planet:
             self.record_lc_snapshot(current_year)
             return ("CRESCITA_STADIO_2", f"L'avamposto su {self.assigned_name} completa le biocupole urbane (Pop: {self.population_millions:.2f}M).")
 
-        # 4. Stadio 2 -> Stadio 3 (Autosufficienza)
+        # 4. Stadio 2 -> Stadio 3
         t2_thresh = (85.0 * (1.6 - self.esi)) * time_mult
         if self.colony_stage == self.STAGE_DEVELOPING and years_in_stage >= t2_thresh:
             self.colony_stage = self.STAGE_SELF_SUFFICIENT
@@ -235,7 +240,7 @@ class Planet:
             self.record_lc_snapshot(current_year)
             return ("AUTOSUFFICIENZA_STADIO_3", f"La colonia su {self.assigned_name} raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: {self.population_millions:.2f}M)!")
 
-        # 5. Stadio 3 -> Stadio 4 (Emancipazione con Leapfrogging ESI + C_col)
+        # 5. Stadio 3 -> Stadio 4 (Emancipazione con Leapfrogging)
         t3_thresh = (110.0 * (1.5 - (self.esi * 0.5))) * time_mult
         if self.colony_stage == self.STAGE_SELF_SUFFICIENT and years_in_stage >= t3_thresh:
             has_enough_mass = (self.population_millions >= 1.2 and self.esi >= 0.70)
@@ -248,7 +253,6 @@ class Planet:
             self.last_stage_transition_year = current_year
             self.population_millions = round(self.population_millions * random.uniform(2.0, 4.0), 2)
             
-            # --- MODELLO LEAPFROGGING V5.4 (ESI x BETA x C_COL) ---
             beta_val = (ai_diplomacy_cfg or {}).get("civilization_parameters", {}).get("beta_esi_leapfrogging", 0.50)
             divergence_factor = (self.esi - 0.70) * beta_val * self.c_col + random.uniform(-0.05, 0.20)
             self.civilization_level = round(max(0.60, min(1.60, self.mother_lc_at_foundation * (1.0 + divergence_factor))), 3)
@@ -388,7 +392,6 @@ class StarSystem:
         self.starbase_status = "Leale"
         self.starbase_name = None
         
-        # Inizializza i pianeti passando il puntatore star_system_id
         self.planets = [
             Planet(p, self.assigned_name, idx + 1, system_id=self.original_id) 
             for idx, p in enumerate(self.planets_data)
