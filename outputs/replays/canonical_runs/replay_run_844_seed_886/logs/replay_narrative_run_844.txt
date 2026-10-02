@@ -1,0 +1,110 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 886)...
+[PATHFINDING] Rete galattica universale creata: 4848 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4.1 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +   6.79 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+    [T +   6.81 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kry-781!
+    [T +  26.51 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Cydex!
+    [T +  62.05 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-272!
+    [T +  68.67 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Kryeon!
+    [T +  74.56 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Kryix!
+    [T + 100.17 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-459!
+    [T + 120.17 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Zeneon!
+    [T + 136.32 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-941!
+    [T + 202.50 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Nyxara!
+    [T + 205.55 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper-453!
+    [T + 218.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Cydia!
+    [T + 243.50 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Kryion!
+    [T + 381.34 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-435!
+  [T + 409.49 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione Terrestre sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Terra'!
+    [T + 419.25 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Solis Kryara!
+    [T + 430.37 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Sol-198 II (ESI: 0.96, C_col: 0.95, Pop Iniziale: 0.03M)!
+    [T + 435.64 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-411!
+    [T + 450.49 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Delta Zephex!
+  [T + 459.53 yr] [CRESCITA_STADIO_2] L'avamposto su Sol-198 II completa le biocupole urbane (Pop: 0.30M).
+    [T + 480.06 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Lumos!
+    [T + 488.15 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-386!
+    [T + 494.72 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-698!
+    [T + 496.27 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Eld-365!
+    [T + 503.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Aethidor!
+  [T + 516.28 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Sol-198 II raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.21M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Sol-198 II' intraprende la navigazione interstellare (V: 0.581 c, Raggio: 10.4 ly).
+  [T + 629.62 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Sol-198 II dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 91.6, LC: 1.23)!
+  [T + 630.70 yr] [GUERRA DI CONFINE] Rottura diplomatica tra Federazione Terrestre e Governo Sovrano Ribelle di Sol-198 II!
+  [T + 630.70 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Sol-198 II sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Sol-198 II'!
+    [T + 727.36 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Kryara!
+    [T + 731.76 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Kaelara!
+    [T + 734.55 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-391!
+    [T + 747.82 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Sylurn!
+    [T + 755.43 yr] [🛡️ DIRETTIVA PRIMARIA] Flotta di Sol-198 II rileva 'Nazioni Unite di Corellia' (LC: 0.72). Scatta il divieto di interferenza: monitoraggio stealth.
+    [T + 759.52 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-353!
+    [T + 768.83 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zeph-690!
+    [T + 780.68 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-342!
+    [T + 858.53 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Omega Valix!
+    [T + 859.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nova Corantis!
+    [T + 864.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-840!
+    [T + 989.96 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Solis Tharprime!
+    [T + 992.93 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-929!
+[T + 1002.01 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4.1 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (37):
+Flotte Esplorative Totali Attivate nel Tempo: 5
+Starbase Orbitali Presidiate (33):
+    - Starbase Zeph-391 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-941 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kry-781 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-840 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Corantis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Lumos [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Nyxara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-459 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Cydex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-386 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Eld-365 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-353 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper-453 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nova Kryion [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Zeneon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-698 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-272 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Sylurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Aethidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Delta Zephex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Kaelara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-690 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zeph-435 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Kryeon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-411 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Cydia [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Omega Valix [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Tharprime [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-929 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Kryara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Kryara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Kryix [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-342 [Federazione Terrestre] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (2):
+    - 👑 Federazione Terrestre su Terra [LC: 1.03 | C_col: 0.78 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Sol-198 II su Sol-198 II [LC: 0.29 | C_col: 0.95 | Attitudine: Diffidente]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (0):
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1002.01 anni stellari.
+================================================================================

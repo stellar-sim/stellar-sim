@@ -1,0 +1,35 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 413)...
+[PATHFINDING] Rete galattica universale creata: 984 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4.1 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +   0.02 yr] [RIENTRO] ISS Enterprise (Federazione Terrestre) ha completato le rotte ed è tornata alla base.
+[T +   0.02 yr] [FINE] Tutte le flotte di esplorazione hanno completato le rotte.
+  [T +   0.02 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4.1 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (1):
+Flotte Esplorative Totali Attivate nel Tempo: 2
+Starbase Orbitali Presidiate (0):
+
+Governi Coloniali Sovrani Emancipati (1):
+    - 👑 Federazione Terrestre su Terra [LC: 1.00 | C_col: 0.78 | Attitudine: Leale a Sol]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (0):
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 0.02 anni stellari.
+================================================================================

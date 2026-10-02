@@ -1,0 +1,152 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 209)...
+[PATHFINDING] Rete galattica universale creata: 28113 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive all'anno zero: 0 (Silenzio Cosmico Assoluto).
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4.1 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 1 flotte iniziali (Orizzonte: 1000 yr).
+  [T +  15.31 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+    [T +  15.33 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Astra Sylon II (ESI: 0.95, C_col: 0.55, Pop Iniziale: 0.05M)!
+  [T +  15.33 yr] [RIENTRO] Ammiraglia di Terra (Federazione Terrestre) ha completato le rotte ed è tornata alla base.
+    [T +  28.51 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Cygnusgard (ESI: 0.98, C_col: 0.29, Pop Iniziale: 0.03M)!
+  [T +  56.98 yr] [CRESCITA_STADIO_2] L'avamposto su Astra Sylon II completa le biocupole urbane (Pop: 0.37M).
+  [T +  56.98 yr] [CRESCITA_STADIO_2] L'avamposto su Cygnusgard completa le biocupole urbane (Pop: 0.30M).
+    [T +  65.84 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-973!
+    [T +  83.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-877!
+    [T + 102.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-638!
+  [T + 112.98 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Astra Sylon II raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.81M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Astra Sylon II' intraprende la navigazione interstellare (V: 0.548 c, Raggio: 9.1 ly).
+  [T + 112.98 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Cygnusgard raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.75M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Cygnusgard' intraprende la navigazione interstellare (V: 0.232 c, Raggio: 4.3 ly).
+    [T + 124.12 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-835!
+    [T + 124.84 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Corelis!
+    [T + 134.04 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Veror!
+    [T + 148.92 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Omega Arakus!
+    [T + 167.26 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Arakara!
+    [T + 174.46 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Verex!
+    [T + 179.74 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Zenor!
+    [T + 191.66 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Cydara!
+    [T + 192.36 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zen-177!
+    [T + 201.79 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-629!
+    [T + 216.56 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Zephon!
+  [T + 229.01 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Astra Sylon II dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 99.9, LC: 1.15)!
+  [T + 229.01 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Cygnusgard dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 88.5, LC: 1.13)!
+    [T + 231.35 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Valantis!
+    [T + 242.01 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-884!
+  [T + 260.58 yr] [TRATTATO COMMERCIALE] Nuova rotta: Governo Sovrano Ribelle di Astra Sylon II <-> Governo Sovrano Ribelle di Cygnusgard (5.8 ly).
+    [T + 303.12 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Sylurn!
+    [T + 321.53 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kry-371!
+    [T + 335.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Arak-788!
+    [T + 340.92 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-548!
+    [T + 358.02 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper-812!
+    [T + 361.45 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Orionth!
+  [T + 371.89 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione Terrestre sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Terra'!
+    [T + 381.16 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Vesper Corprime!
+    [T + 382.71 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Solis Solurn!
+    [T + 404.56 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-832!
+    [T + 431.90 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Drak-866!
+  [T + 487.17 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Astra Sylon II sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Astra Sylon II'!
+    [T + 522.46 yr] [PRIMO CONTATTO] Flotta Esplorativa II di Astra Sylon II rileva civiltà intelligente da 'Federazione Terrestre' (LC: 1.3605, ESI: 1.00, C_col: 0.78).
+    [T + 538.77 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-939!
+  [T + 547.54 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Cygnusgard sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Cygnusgard'!
+  [T + 564.14 yr] 🌌 [AVANZAMENTO LC >= 1.40] Federazione Terrestre raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Terra'!
+    [T + 656.17 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-384!
+    [T + 670.87 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-732!
+    [T + 790.12 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Delta Verurn!
+    [T + 808.54 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-745!
+    [T + 846.61 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-625!
+    [T + 850.62 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-286!
+    [T + 863.11 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Eldarerara (ESI: 0.93, C_col: 0.32, Pop Iniziale: 0.04M)!
+    [T + 873.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Arakus!
+    [T + 875.02 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Naboo (ESI: 0.93, C_col: 0.64, Pop Iniziale: 0.02M)!
+  [T + 893.52 yr] [CRESCITA_STADIO_2] L'avamposto su Eldarerara completa le biocupole urbane (Pop: 0.38M).
+    [T + 897.07 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Cyd-131!
+  [T + 906.85 yr] [CRESCITA_STADIO_2] L'avamposto su Naboo completa le biocupole urbane (Pop: 0.18M).
+    [T + 918.09 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Syl-274!
+    [T + 929.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Eld-702!
+    [T + 939.97 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Mor-942!
+  [T + 950.96 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Eldarerara raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 3.18M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Eldarerara' intraprende la navigazione interstellare (V: 0.37 c, Raggio: 6.3 ly).
+    [T + 958.45 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Lum-309!
+    [T + 962.06 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Zenith Nyxidor!
+  [T + 965.18 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Naboo raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.93M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Naboo' intraprende la navigazione interstellare (V: 0.211 c, Raggio: 3.5 ly).
+    [T + 973.01 yr] [ARCHEOLOGIA] ISS Enterprise scava le rovine di 'Nazioni Unite di Dathomir' su Dathomir.
+    [T + 973.43 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-749!
+    [T + 979.15 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Nyxor!
+    [T + 987.61 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Moridor!
+    [T + 994.47 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Epsilon Aethelis!
+  [T + 998.09 yr] [RIENTRO] Flotta di Naboo (Federazione Terrestre) ha completato le rotte ed è tornata alla base.
+[T + 1000.82 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4.1 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (50):
+Flotte Esplorative Totali Attivate nel Tempo: 10
+Starbase Orbitali Presidiate (44):
+    - Starbase Orion-745 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper-812 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-835 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-973 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Nyxidor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-884 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Nyxor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Aethelis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Drak-866 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Corelis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-749 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Valantis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Syl-274 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Zephon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Cydara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kry-371 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-629 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Eld-702 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nyx-625 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-286 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Omega Arakus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Delta Verurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Sylurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-732 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Kael-384 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Val-877 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-548 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Moridor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-131 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Orionth [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nyx-939 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zenith Arakus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Veror [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-832 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper Corprime [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Epsilon Zenor [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-638 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-177 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Lum-309 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Solurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Mor-942 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Arakara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Apex Verex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-788 [Federazione Terrestre] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (3):
+    - 👑 Federazione Terrestre su Terra [LC: 1.60 | C_col: 0.78 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Astra Sylon II su Astra Sylon II [LC: 1.31 | C_col: 0.55 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Cygnusgard su Cygnusgard [LC: 1.30 | C_col: 0.29 | Attitudine: Diffidente]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (1):
+    💰 Rotta [Astra Sylon <---> Ver-982] | Governo Sovrano Ribelle di Astra Sylon II <-> Governo Sovrano Ribelle di Cygnusgard (+15% Energia)
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1000.82 anni stellari.
+================================================================================

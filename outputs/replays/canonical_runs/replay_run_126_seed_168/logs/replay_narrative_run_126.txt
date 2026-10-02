@@ -1,0 +1,220 @@
+[CONFIG] 'Interaction Config' caricato con successo da 'config/interaction_config.json'.
+[CONFIG] 'Naming Config' caricato con successo da 'config/naming_config.json'.
+[CONFIG] 'Plotly Config' caricato con successo da 'config/plotly_config.json'.
+[CONFIG] 'AI Diplomacy Config' caricato con successo da 'config/ai_diplomacy_config.json'.
+
+[REPLAY] Generazione Universo (Seed = 168)...
+[PATHFINDING] Rete galattica universale creata: 54032 rotte possibili tra 3101 sistemi.
+[UNIVERSO] Civiltà aliene attive entro la Sfera di Spawn (18.0 ly): 1
+
+================================================================================
+=== INIZIO SIMULAZIONE GALATTICA MULTI-AGENTE V5.4.1 [TACTICAL_ACCELERATED] ===
+================================================================================
+[T +   0.00 yr] [INIZIALIZZAZIONE] Attivate 2 flotte iniziali (Orizzonte: 1000 yr).
+    [T +   3.92 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion-448!
+  [T +   7.81 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione Terrestre raggiunge LC = 1.00! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Terra'.
+  [T +   7.81 yr] 🚀 [EMERGENZA INTERSTELLARE] Federazione di Upper-Zephyravallis raggiunge LC = 1.13! Esce dalla Direttiva Primaria e vara 'Ammiraglia di Upper-Zephyravallis'.
+    [T +   8.55 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Lum-953!
+    [T +  13.86 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Apex Valus!
+    [T +  28.85 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Vesper-713!
+    [T +  30.02 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Kaelurn!
+    [T +  46.79 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Vesper-927!
+    [T +  47.89 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Morara!
+    [T +  65.78 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Cyd-610!
+    [T +  65.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Astra Tharus!
+    [T +  85.87 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Gamma Nyxelis!
+    [T +  87.16 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Polaris Kaelprime!
+    [T + 106.38 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-650!
+    [T + 110.95 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Ver-143!
+    [T + 128.06 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Orionara!
+    [T + 137.66 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Cyd-265!
+    [T + 150.85 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Delta Eldex!
+    [T + 166.44 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Aeth-202!
+    [T + 174.00 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Polaris Zenara!
+    [T + 196.80 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Sigma Kaeleon!
+    [T + 197.63 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Omega Nyxprime!
+    [T + 221.67 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Aeth-263!
+    [T + 229.29 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Aeth-676!
+  [T + 239.76 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione di Upper-Zephyravallis sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Upper-Zephyravallis'!
+    [T + 245.93 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Sylon!
+    [T + 262.49 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Sigma Sylos!
+    [T + 271.05 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Ver-998!
+    [T + 279.03 yr] [COLONIZZAZIONE FASE 1] Federazione di Upper-Zephyravallis insedia Thalorerantis (ESI: 0.96, C_col: 0.96, Pop Iniziale: 0.02M)!
+    [T + 293.67 yr] [COLONIZZAZIONE FASE 1] Federazione di Upper-Zephyravallis insedia Neo-Solarisis (ESI: 0.93, C_col: 0.37, Pop Iniziale: 0.01M)!
+    [T + 296.94 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Beta Kaelia!
+  [T + 308.29 yr] [CRESCITA_STADIO_2] L'avamposto su Thalorerantis completa le biocupole urbane (Pop: 0.17M).
+    [T + 311.11 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Vesper Eldor!
+    [T + 318.68 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Gamma Lumara!
+    [T + 323.73 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-245!
+  [T + 328.27 yr] [CRESCITA_STADIO_2] L'avamposto su Neo-Solarisis completa le biocupole urbane (Pop: 0.11M).
+    [T + 330.59 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Vesper Valantis!
+    [T + 347.26 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Alpha Zephor!
+    [T + 351.46 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Mor-162!
+    [T + 356.16 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Kael-179!
+  [T + 363.84 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Thalorerantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.17M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Thalorerantis' intraprende la navigazione interstellare (V: 0.35 c, Raggio: 6.9 ly).
+  [T + 363.84 yr] 🚀 [AVANZAMENTO LC >= 1.20] Federazione Terrestre sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Terra'!
+    [T + 367.37 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Polaris Moreon!
+    [T + 367.85 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Zenith Tharex!
+    [T + 379.30 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sol-883!
+  [T + 387.59 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Neo-Solarisis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.52M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Neo-Solarisis' intraprende la navigazione interstellare (V: 0.425 c, Raggio: 7.2 ly).
+    [T + 390.36 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Cyd-725!
+    [T + 407.46 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Thar-491!
+    [T + 416.85 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Arak-793!
+    [T + 421.74 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Vesper Arakelis!
+    [T + 435.98 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Thar-772!
+    [T + 471.92 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Gamma Drakelis!
+    [T + 485.63 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Thar-399!
+    [T + 486.11 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Orion-620!
+    [T + 487.79 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Orion-743 II (ESI: 1.00, C_col: 0.90, Pop Iniziale: 0.03M)!
+    [T + 496.46 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Drak-277!
+    [T + 497.23 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Sigma Lumelis!
+    [T + 509.26 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Sol-249!
+  [T + 516.91 yr] [CRESCITA_STADIO_2] L'avamposto su Orion-743 II completa le biocupole urbane (Pop: 0.24M).
+  [T + 521.17 yr] 🌌 [AVANZAMENTO LC >= 1.40] Federazione di Upper-Zephyravallis raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Upper-Zephyravallis'!
+    [T + 533.61 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Zenith Kryia!
+  [T + 569.14 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Orion-743 II raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.07M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Orion-743 II' intraprende la navigazione interstellare (V: 0.484 c, Raggio: 8.5 ly).
+    [T + 573.89 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Eld-320!
+  [T + 583.22 yr] 💀 [GRANDE FILTRO CONTINUO] Upper-Zephyravallis collassa: estinzione per 'Crisi dell'Intelligenza Artificiale Ostile'!
+    [T + 583.38 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Orion Morex!
+    [T + 596.78 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Kael-364!
+    [T + 613.98 yr] [PRIMO CONTATTO] Ammiraglia di Upper-Zephyravallis rileva civiltà intelligente da 'Federazione Terrestre' (LC: 1.3945, ESI: 1.00, C_col: 0.78).
+  [T + 624.49 yr] 🌌 [AVANZAMENTO LC >= 1.40] Federazione Terrestre raggiunge l'Ingegneria Planetaria e vara la TERZA FLOTTA: 'Flotta Esplorativa III di Terra'!
+  [T + 682.22 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Orion-743 II dichiara la GUERRA D'INDIPENDENZA contro Federazione Terrestre (Risentimento: 83.1, LC: 1.31)!
+  [T + 685.52 yr] [GUERRA DI CONFINE] Rottura diplomatica tra Federazione Terrestre e Governo Sovrano Ribelle di Orion-743 II!
+  [T + 685.52 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Orion-743 II sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Orion-743 II'!
+    [T + 706.29 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Astra Zephantis!
+    [T + 745.88 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Solis Kaelon!
+    [T + 752.22 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Kael-463!
+    [T + 770.95 yr] [COLONIZZAZIONE FASE 1] Federazione di Upper-Zephyravallis insedia Tatooine (ESI: 0.93, C_col: 0.54, Pop Iniziale: 0.04M)!
+    [T + 785.68 yr] [🛡️ DIRETTIVA PRIMARIA] Ammiraglia di Upper-Zephyravallis rileva 'Federazione Orbitale di Kryon Major' (LC: 0.85). Scatta il divieto di interferenza: monitoraggio stealth.
+  [T + 801.34 yr] [CRESCITA_STADIO_2] L'avamposto su Tatooine completa le biocupole urbane (Pop: 0.28M).
+    [T + 816.12 yr] [COLONIZZAZIONE FASE 1] Federazione di Upper-Zephyravallis insedia Sylvanantis (ESI: 0.97, C_col: 0.60, Pop Iniziale: 0.02M)!
+    [T + 835.96 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Zen-821!
+  [T + 845.37 yr] [CRESCITA_STADIO_2] L'avamposto su Sylvanantis completa le biocupole urbane (Pop: 0.11M).
+    [T + 845.74 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Solis Moridor!
+    [T + 846.60 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Syl-424!
+  [T + 861.39 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Tatooine raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 2.61M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Tatooine' intraprende la navigazione interstellare (V: 0.337 c, Raggio: 6.2 ly).
+    [T + 863.67 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Kry-656!
+    [T + 880.35 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Delta Valex III (ESI: 0.93, C_col: 0.41, Pop Iniziale: 0.03M)!
+    [T + 885.57 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Lumon!
+    [T + 890.15 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Aeth-111!
+  [T + 899.64 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Sylvanantis raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 0.54M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Sylvanantis' intraprende la navigazione interstellare (V: 0.358 c, Raggio: 6.1 ly).
+    [T + 899.66 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Omega Aethgard!
+    [T + 907.85 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Beta Sylidor!
+  [T + 911.50 yr] [CRESCITA_STADIO_2] L'avamposto su Delta Valex III completa le biocupole urbane (Pop: 0.20M).
+    [T + 917.53 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Nyx-963!
+    [T + 921.39 yr] [COLONIZZAZIONE FASE 1] Federazione di Upper-Zephyravallis insedia VespererSecundus (ESI: 0.97, C_col: 0.90, Pop Iniziale: 0.02M)!
+    [T + 923.71 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Orion-836!
+    [T + 928.97 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Val-109!
+    [T + 936.08 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Val-632!
+    [T + 942.06 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Kry-269!
+    [T + 946.10 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Polaris Orionus!
+  [T + 949.62 yr] [CRESCITA_STADIO_2] L'avamposto su VespererSecundus completa le biocupole urbane (Pop: 0.17M).
+    [T + 957.69 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Sigma Moraxis!
+    [T + 965.32 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Omega Vesperor!
+  [T + 969.54 yr] [AUTOSUFFICIENZA_STADIO_3] La colonia su Delta Valex III raggiunge l'autosufficienza industriale ed energetica: SBLOCCO CANTIERISTICA INTERSTELLARE (Pop: 1.18M)!
+    |-- [CANTIERISTICA ATTIVA] 'Flotta di Delta Valex III' intraprende la navigazione interstellare (V: 0.548 c, Raggio: 8.8 ly).
+  [T + 976.05 yr] [GUERRA_INDIPENDENZA_STADIO_4] ⚡ RIVOLTA DI FRONTIERA: Tatooine dichiara la GUERRA D'INDIPENDENZA contro Federazione di Upper-Zephyravallis (Risentimento: 99.6, LC: 1.31)!
+  [T + 980.17 yr] 🚀 [AVANZAMENTO LC >= 1.20] Governo Sovrano Ribelle di Tatooine sblocca e vara la SECONDA FLOTTA: 'Flotta Esplorativa II di Tatooine'!
+    [T + 981.95 yr] [STARBASE ORBITALE] Federazione Terrestre costruisce un presidio su Beta Moraxis!
+    [T + 985.18 yr] [COLONIZZAZIONE FASE 1] Federazione Terrestre insedia Polaris Moridor II (ESI: 0.99, C_col: 0.95, Pop Iniziale: 0.04M)!
+    [T + 985.92 yr] [STARBASE ORBITALE] Federazione di Upper-Zephyravallis costruisce un presidio su Beta Eldprime!
+[T + 1000.49 yr] [TIMEOUT] Raggiunto il limite temporale (1000 anni).
+
+================================================================================
+=== RIEPILOGO GENERALE DELLA GALASSIA MULTI-AGENTE V5.4.1 ===
+================================================================================
+Sistemi Stellari Totali Esplorati (87):
+Flotte Esplorative Totali Attivate nel Tempo: 16
+Starbase Orbitali Presidiate (72):
+    - Starbase Sigma Moraxis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Lumon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Arak-793 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Val-632 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Aeth-111 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Mor-162 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Orionara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Nyx-963 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sigma Lumelis [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Sigma Sylon [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-883 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-725 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Polaris Kaelprime [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Val-109 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Drak-277 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Orion Morex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-265 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Omega Aethgard [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Vesper Arakelis [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Astra Tharus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Beta Sylidor [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Zenith Kryia [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Polaris Zenara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Zephantis [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Sol-245 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Drakelis [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Eld-320 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Polaris Orionus [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Lum-953 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Polaris Moreon [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Vesper Eldor [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kry-269 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Solis Moridor [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kael-364 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Sol-249 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Aeth-263 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-143 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Gamma Nyxelis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-620 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Beta Moraxis [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Orion-836 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kry-656 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Vesper-927 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Aeth-676 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Orion-448 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Gamma Lumara [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Thar-772 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Beta Eldprime [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Vesper Valantis [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Omega Nyxprime [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Cyd-610 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kael-650 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Solis Kaelon [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Orion Kaelurn [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Ver-998 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Astra Morara [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Delta Eldex [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Omega Vesperor [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Zenith Tharex [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Syl-424 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Sigma Sylos [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Thar-491 [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Zen-821 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Apex Valus [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Beta Kaelia [Federazione Terrestre] | Status: 🛰️ LEALE
+    - Starbase Thar-399 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Vesper-713 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Alpha Zephor [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kael-179 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Sigma Kaeleon [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Aeth-202 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+    - Starbase Kael-463 [Federazione di Upper-Zephyravallis] | Status: 🛰️ LEALE
+
+Governi Coloniali Sovrani Emancipati (3):
+    - 👑 Federazione Terrestre su Terra [LC: 0.95 | C_col: 0.78 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Orion-743 II su Orion-743 II [LC: 0.42 | C_col: 0.90 | Attitudine: Diffidente]
+    - 👑 Governo Sovrano Ribelle di Tatooine su Tatooine [LC: 1.31 | C_col: 0.54 | Attitudine: Diffidente]
+
+================================================================================
+=== RAPPORTO GEOPOLITICO GALATTICO & ROTTE COMMERCIALI ===
+================================================================================
+ROTTE COMMERCIALI INTERSTELLARI ATTIVE (0):
+
+================================================================================
+MISSIONE CONCLUSA | Tempo operativo totale: 1000.49 anni stellari.
+================================================================================
