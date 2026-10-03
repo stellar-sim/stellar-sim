@@ -3,7 +3,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python: 3.10+](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](https://www.python.org/)
 
-**Stellar_Sim** is an agent-based, discrete-event simulation engine designed to model the relativistic kinematics, thermodynamic boundaries, and socio-political fragmentation of interstellar civilizations (addressing the Fermi Paradox and the Great Silence).
+**Stellar-Sim** is an agent-based, discrete-event simulation engine designed to model the relativistic kinematics, thermodynamic boundaries, and socio-political fragmentation of interstellar civilizations (addressing the Fermi Paradox and the Great Silence).
 
 This software represents the computational foundation of the book:
 > **Arcipelago Cosmico: Perché le civiltà aliene potrebbero esistere, ma restare isolate e invisibili**  
